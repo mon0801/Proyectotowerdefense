@@ -11,7 +11,7 @@ package Tropas;
 public class Mago  extends Tropa{
 
     public Mago(double vida, boolean isHostil) {
-        super(vida, isHostil);
+        super(EnumTropas.MAGO, vida, isHostil);
     }
     
 }

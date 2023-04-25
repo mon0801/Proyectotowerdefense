@@ -12,11 +12,9 @@ import GUI.Errores;
  */
 public class Castillo extends Tropa{
 
-    public Castillo(double vida, boolean isHostil) {
-        super(vida, isHostil);
+
+    public Castillo( double vida, boolean isHostil) {
+        super(EnumTropas.CASTILLO, vida, isHostil);
     }
-     @Override
-    protected void atacar(Tropa tropa, double danno) throws Errores{
-       throw new Errores("El castillo no ataca a nínguna tropa");
-    }
+
 }

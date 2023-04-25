@@ -11,7 +11,7 @@ package Tropas;
 public class Caballero  extends Tropa {
 
     public Caballero(double vida, boolean isHostil) {
-        super(vida, isHostil);
+              super(EnumTropas.CABALLERO,vida, isHostil);
     } 
     
 }

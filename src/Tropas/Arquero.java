@@ -11,7 +11,7 @@ package Tropas;
 public class Arquero extends Tropa {
 
     public Arquero(double vida, boolean isHostil) {
-        super(vida, isHostil);
+        super(EnumTropas.ARQUERO,vida, isHostil);
     }
     
 }
